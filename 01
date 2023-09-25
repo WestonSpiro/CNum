@@ -2,7 +2,10 @@
 
 int main() {
     int i;
+    puts("Please enter a number: ");
     scanf("%d", &i);
-    printf("%d %x %o", i,i,i);
+    printf("You have input: %d\n", i); 
+    printf("The octal representation of %d is %o\n", i,i);
+    printf("The hexadecimal representation of %d is %x", i,i);
     return 0;
 }
