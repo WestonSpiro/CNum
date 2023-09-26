@@ -2,7 +2,7 @@
 #include <math.h>
 
 int main() {
-    int i;
+    unsigned int i;
     float j;
     float k;
     puts("Please enter a number: ");
