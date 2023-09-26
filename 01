@@ -1,11 +1,18 @@
 #include <stdio.h>
+#include <math.h>
 
 int main() {
     int i;
+    float j;
+    float k;
     puts("Please enter a number: ");
     scanf("%d", &i);
     printf("You have input: %d\n", i); 
     printf("The octal representation of %d is %o\n", i,i);
-    printf("The hexadecimal representation of %d is %x", i,i);
+    printf("The hexadecimal representation of %d is %x\n", i,i);
+    j = (float)i;
+    printf("The inverse of %f is %f\n", j, 1/j);
+    k = sqrt(j);
+    printf("The square root %f is %f", j,k);
     return 0;
 }
