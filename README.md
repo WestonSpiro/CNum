@@ -1,9 +1,3 @@
 # CNum
 
-A simple C program that takes a whole number and returns
-The octal representation
-The hexadecimal representation 
-The inverse
-The square root
-Tne number squared
-The number cubed
+A simple C program that takes a whole number and returns the octal representation, the hexadecimal representation, the inverse, the square root, tne number squared & the number cubed.
