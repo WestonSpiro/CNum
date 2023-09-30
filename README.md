@@ -5,3 +5,4 @@ The octal representation
 The hexadecimal representation 
 The inverse
 The square root
+Tne number squared
