@@ -13,6 +13,7 @@ int main() {
     j = (float)i;
     printf("The inverse of %f is %f\n", j, 1/j);
     k = sqrt(j);
-    printf("The square root of %f is %f", j,k);
+    printf("The square root of %f is %f\n", j,k);
+    printf("%i squared is %i", i, i*i);
     return 0;
 }
