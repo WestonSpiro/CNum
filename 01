@@ -2,18 +2,22 @@
 #include <math.h>
 
 int main() {
-    unsigned int i;
-    float j;
-    float k;
-    puts("Please enter a number: ");
+    long long int i;
+    long double j;
+    long double k;
+    puts("Please enter a positive whole number: ");
     scanf("%d", &i);
-    printf("You have input: %d\n", i); 
-    printf("The octal representation of %d is %o\n", i,i);
-    printf("The hexadecimal representation of %d is %x\n", i,i);
-    j = (float)i;
-    printf("The inverse of %f is %f\n", j, 1/j);
-    k = sqrt(j);
-    printf("The square root of %f is %f\n", j,k);
-    printf("%i squared is %i", i, i*i);
+    if(i >= 0){
+        printf("You have input: %lld\n", i);
+        printf("The octal representation of %lld is %o\n", i,i);
+        printf("The hexadecimal representation of %lld is %x\n", i,i);
+        j = (long double)i;
+        printf("The inverse of %Lf is %Lf\n", j, 1/j);
+        k = sqrt(j);
+        printf("The square root of %Lf is %Lf\n", j,k);
+        printf("%lld squared is %lld\n", i, i*i);
+        printf("%lld cubed is %lld", i, i*i*i);}
+    else {
+        puts("Please enter a valid number.");}
     return 0;
 }
