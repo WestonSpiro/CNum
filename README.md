@@ -6,3 +6,4 @@ The hexadecimal representation
 The inverse
 The square root
 Tne number squared
+The number cubed
